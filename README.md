@@ -2,15 +2,15 @@
 
 Interactive prompt for command-line applications.
 
-We built Promptui because we wanted to make it easy and fun to explore cloud services with [manifold cli](https://github.com/manifoldco/manifold-cli).
+We built Promptui because we wanted to make it easy and fun to explore cloud services with [manifold cli](https://github.com/denouche/manifold-cli).
 
 [Code of Conduct](./CODE_OF_CONDUCT.md) |
 [Contribution Guidelines](./.github/CONTRIBUTING.md)
 
-[![GitHub release](https://img.shields.io/github/tag/manifoldco/promptui.svg?label=latest)](https://github.com/manifoldco/promptui/releases)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/manifoldco/promptui)
-[![Travis](https://img.shields.io/travis/manifoldco/promptui/master.svg)](https://travis-ci.org/manifoldco/promptui)
-[![Go Report Card](https://goreportcard.com/badge/github.com/manifoldco/promptui)](https://goreportcard.com/report/github.com/manifoldco/promptui)
+[![GitHub release](https://img.shields.io/github/tag/denouche/promptui.svg?label=latest)](https://github.com/denouche/promptui/releases)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/denouche/promptui)
+[![Travis](https://img.shields.io/travis/denouche/promptui/master.svg)](https://travis-ci.org/denouche/promptui)
+[![Go Report Card](https://goreportcard.com/badge/github.com/denouche/promptui)](https://goreportcard.com/report/github.com/denouche/promptui)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](./LICENSE.md)
 
 ## Overview
@@ -30,7 +30,7 @@ Promptui has two main input modes:
 - `Select` provides a list of options to choose from. Select supports
   pagination, search, detailed view and custom templates.
 
-For a full list of options check [GoDoc](https://godoc.org/github.com/manifoldco/promptui).
+For a full list of options check [GoDoc](https://godoc.org/github.com/denouche/promptui).
 
 ## Basic Usage
 
@@ -44,7 +44,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/manifoldco/promptui"
+	"github.com/denouche/promptui"
 )
 
 func main() {
@@ -80,7 +80,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/manifoldco/promptui"
+	"github.com/denouche/promptui"
 )
 
 func main() {
@@ -103,4 +103,4 @@ func main() {
 
 ### More Examples
 
-See full list of [examples](https://github.com/manifoldco/promptui/tree/master/_examples)
+See full list of [examples](https://github.com/denouche/promptui/tree/master/_examples)
